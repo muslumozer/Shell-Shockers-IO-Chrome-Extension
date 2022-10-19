@@ -1,0 +1,26 @@
+{
+    "name" : "Shell Shockers io",
+    "description" : "Shell Shockers is the world’s most popular egg-based multiplayer first person shooter!",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "icons" : {
+        "16" : "16.png",
+        "32" : "32.png",
+        "48" : "48.png",
+        "128" : "128.png"
+    },
+    "default_locale": "en",
+    "action" : {
+    "default_popup" : "./popup.html",
+    "default_icons" : {
+        "16" : "16.png",
+        "32" : "32.png",
+        "48" : "48.png",
+        "128" : "128.png" 
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+      }
+       
+}
